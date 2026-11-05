@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+*{
+margin: 0;
+font-family: "Bricolage Grotesque", sans-serif;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.header-section{
+    width: 100% ;
+    height: auto;
+    background-color: #e5e5e5;
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo-container{
+    width: fit-content;
+    height: auto;
+}
+
+.Logo-container h3{
+columns: #1e1e1e;
+font-size: 1.5rem;
+}
+
+.button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.button-container button{
+    background-color: #212121;
+    color: #f6f6f6;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+}
+
+.hero-section{
+    width: 100% ;
+    height: auto;
+    background-color: #d3d3d3;
+    padding: 3rem 2rem 3rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.left-hero-container{
+    width: 50%;
+    height: auto;
+    background-color: #fffdfd;
+    padding: 12rem 4rem 12rem 4rem;  
+    display: flex;
+    flex-direction: column; 
+    row-gap: 0.5rem; 
+}
+
+.right-hero-container{
+    width: 50%;
+    height: auto;
+    background-color: #7c7c7c;
+   
+       
+}
+
+.right-hero-container img{
+    width: 100%;
+    height: fit-content;
+}
+
+.left-hero-container-button{
+    width: fit-content;
+    height: auto;
+}
+    
+.left-hero-container-button button{
+    background-color: #212121;
+    color: #f6f6f6;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.card-section{
+    width: 100% ;
+    height: auto;
+    background-color: #8d8a8a;
+    padding: 3rem 2rem 3rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    column-gap: 2rem;
+}
+
+.first-card-container, .second-card-container{
+    width: 50%;
+    height: auto;
+    background-color: #fffdfd;
+    padding: 12rem 4rem 12rem 4rem;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    row-gap: 1.2rem;
+}
+
+.first-card-button, .second-card-button{
+    width: fit-content;
+    height: auto;
+}
+
+.first-card-button button, .second-card-button button{
+    background-color: #212121;
+    color: #f6f6f6;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

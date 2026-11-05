@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    padding: 20rem 10rem 20rem 10rem;
+    background-image: url(./Images/Premium\ Photo\ _\ Shopping\ Bag\ with\ Cart\ Symbol\ and\ Wheels.jpeg);
+    background-color: #d1d1d1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start; 
+}
+
+.hero-text-container{
+    width: 26%;
+    height: auto;
+    background-color: #fbff24;
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1.2rem;  
+    position: relative;
+    right: 8rem;
+}
+.paragraph p{
+    width: 90%;
+    text-wrap: wrap;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form-and-shipping-section{
+    width: 100%;
+    height: auto;
+    padding: 4rem 3rem 2rem 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 1.2rem; 
+}
+
+.form1-container{
+    width: 45%;
+    height: auto;
+    padding: 1rem 2rem 1.5rem 2rem;
+    outline: none;
+    border: none;
+    border: 2px solid #d4d4d4;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem; 
+}
+
+.form-container{
+    width: 50%;
+    height: auto;
+    padding: 1rem 2rem 1.5rem 2rem;
+    outline: none;
+    border: none;
+    border: 2px solid #d4d4d4;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem; 
+}
+
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.5rem; 
+}
+
+.name-input{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.4rem; 
+}
+input{
+    width: 465px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border: 2px solid #ffe551;
+    border-radius: 0.4rem;
+}
+
+label{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.button{
+    width: fit-content;
+    height: auto;
+}
+.button button{
+    font-size: 18px;
+    font-weight: 500;
+    color: #070707;
+    background-color: #ffe551;
+    padding: 0.6rem 11rem 0.6rem 11rem;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.company{
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    outline: none;
+    border: none;
+    border: 1.5px solid #d4d4d4;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radio{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.4rem;
+}
+
+.radio-button input{
+    width: 50px;
+    height: auto;
+}
+
+.company-heading{
+   width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.button2{
+    width: fit-content;
+    height: auto;
+}
+.button2 button{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #070707;
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.button3 button{
+    font-size: 18px;
+    font-weight: 500;
+    color: #070707;
+    background-color: #ffe551;
+    padding: 0.6rem 10.2rem 0.6rem 10.2rem;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+

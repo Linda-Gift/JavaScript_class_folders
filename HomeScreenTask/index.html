@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeScreen</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="header-section">
+
+            <div class="logo-container">
+                <img src="./mark.svg" alt="logo">
+            </div>
+
+            <div class="nav-menu">
+                <div class="desktop-menu">
+                    <div class="anchor"><a href="">Home</a></div>
+                    <div class="anchor"><a href="">Invoices</a></div>
+                    <div class="anchor"><a href="">Clients</a></div>
+                    <div class="anchor"><a href="">Expenses</a></div>
+                    <i class="fa-solid fa-bars" id="menu-icon"></i>
+                </div>
+
+                <div class="mobile-menu" id="mobile-menu">
+                    <i class="fa-solid fa-xmark" id="close-icon"></i>
+                    <div class="anchor"><a href="">Home</a></div>
+                    <div class="anchor"><a href="">Invoices</a></div>
+                    <div class="anchor"><a href="">Clients</a></div>
+                    <div class="anchor"><a href="">Expenses</a></div>
+                </div>
+            </div>
+
+            <div class="notification-container">
+                <div class="notification-bell">
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+                <div class="profile">
+                    <img src="./male1.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="invoice-section">
+            <div class="cashflow-container">
+                <div class="cashflow-and-days-container">
+                    <div class="cashflow">
+                        <h4>Cashflow</h4>
+                    </div>
+
+                    <div class="days-container">
+                        <div class="first"><p>Last 7 days</p></div>
+                        <div class="second"><p>Last 30 days</p></div>
+                        <div class="third"><p>All-time</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="button-container">
+                <button>+  New invoice</button>
+            </div>
+        </div>
+
+        <div class="revenue-section">
+            <div class="first-revenue-container">
+                <div class="revenue-container">
+                    <div class="revenue"><p>Revenue</p></div>
+                    <div class="percent"><p>+4.75%</p></div>
+                </div>
+                <div class="amount-container"><h1>$405,091.00</h1></div>
+            </div>
+
+            <div class="first1-revenue-container">
+                <div class="revenue-container">
+                    <div class="revenue"><p>Overdue invoices</p></div>
+                    <div class="percent1"><p>+54.02%</p></div>
+                </div>
+                <div class="amount-container"><h1>$12,787.00</h1></div>
+            </div>
+
+            <div class="first1-revenue-container">
+                <div class="revenue-container">
+                    <div class="revenue"><p>Outstanding invoices</p></div>
+                    <div class="percent"><p>-1.39%</p></div>
+                </div>
+                <div class="amount-container"><h1>$245,988.00</h1></div>
+            </div>
+
+            <div class="first1-revenue-container">
+                <div class="revenue-container">
+                    <div class="revenue"><p>Expenses</p></div>
+                    <div class="percent2"><p>+10.18%</p></div>
+                </div>
+                <div class="amount-container"><h1>$30,156.00</h1></div>
+            </div>
+        </div>
+
+        <section class="recent-activity-section">
+            <div class="recent-container">
+                <h4>Recent activity</h4>
+            </div>
+            <div class="today-and-yesterday-container">
+            <div class="day-and-transaction-container">
+                <div class="recent-day-container">
+                    <p>Today</p>
+                </div>
+
+                <div class="transaction-container">
+                    <div class="first-container">
+                        <div class="paid-container">
+                            <div class="icon-and-payment-container">
+                                <div class="icon-container"><i class="fa-solid fa-arrow-up"></i></div>
+
+                                <div class="payment-container">
+                                    <div class="amount-container1"><p>$7,600.00 USD</p></div>
+                                    <div class="payment-status"><p>Paid</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tax-container"><p>$500.00 tax</p></div>
+                    </div>
+                    <div class="second-container">
+                        <div class="reform-text"><h4>Reform</h4></div>
+                        <div class="reform-description-text"><p>Website redesign</p></div>
+                    </div>
+                    <div class="third-container">
+                        <div class="reform-text1"><h4>View transaction</h4></div>
+                        <div class="reform-description-text"><p>Invoice #00012</p></div>
+                    </div>
+                </div>
+
+                <div class="transaction-container">
+                    <div class="first-container">
+                        <div class="paid-container">
+                            <div class="icon-and-payment-container">
+                                <div class="icon-container"><i class="fa-solid fa-arrow-down-long"></i></div>
+
+                                <div class="payment-container">
+                                    <div class="amount-container1"><p>$10,000.00 USD</p></div>
+                                    <div class="payment-status1"><p>Withdrawal</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-container">
+                        <div class="reform-text"><h4>Tom Cook</h4></div>
+                        <div class="reform-description-text"><p>Salary</p></div>
+                    </div>
+                    <div class="third-container">
+                        <div class="reform-text1"><h4>View transaction</h4></div>
+                        <div class="reform-description-text"><p>Invoice #00011</p></div>
+                    </div>
+                </div>
+
+                <div class="transaction-container">
+                    <div class="first-container">
+                        <div class="paid-container">
+                            <div class="icon-and-payment-container">
+                                <div class="icon-container1"><i class="fa-solid fa-rotate"></i></div>
+
+                                <div class="payment-container">
+                                    <div class="amount-container1"><p>$2,000.00 USD</p></div>
+                                    <div class="payment-status2"><p>Overdue</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tax-container"><p>$130.00 tax</p></div>
+                    </div>
+                    <div class="second-container">
+                        <div class="reform-text"><h4>Tuple</h4></div>
+                        <div class="reform-description-text"><p>Logo design</p></div>
+                    </div>
+                    <div class="third-container">
+                        <div class="reform-text1"><h4>View transaction</h4></div>
+                        <div class="reform-description-text"><p>Invoice #00009</p></div>
+                    </div>
+                </div>
+
+                <!-- <div class="day-and-transaction-container2">
+                    <div class="recent-day-container">
+                        <p>Yesterday</p>
+                    </div>
+    
+                    <div class="transaction-container">
+                        <div class="first-container">
+                            <div class="paid-container">
+                                <div class="icon-and-payment-container">
+                                    <div class="icon-container"><i class="fa-solid fa-arrow-up"></i></div>
+    
+                                    <div class="payment-container">
+                                        <div class="amount-container1"><p>$14,000.00 USD</p></div>
+                                        <div class="payment-status"><p>Paid</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tax-container"><p>$900.00 tax</p></div>
+                        </div>
+                        <div class="second-container">
+                            <div class="reform-text"><h4>SavvyCal</h4></div>
+                            <div class="reform-description-text"><p>Website redesign</p></div>
+                        </div>
+                        <div class="third-container">
+                            <div class="reform-text"><h4>View transaction</h4></div>
+                            <div class="reform-description-text"><p>Invoice #00010</p></div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="day-and-transaction-container2">
+                <div class="recent-day-container">
+                    <p>Yesterday</p>
+                </div>
+
+                <div class="transaction-container">
+                    <div class="first-container">
+                        <div class="paid-container">
+                            <div class="icon-and-payment-container">
+                                <div class="icon-container"><i class="fa-solid fa-arrow-up"></i></div>
+
+                                <div class="payment-container">
+                                    <div class="amount-container1"><p>$14,000.00 USD</p></div>
+                                    <div class="payment-status"><p>Paid</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tax-container"><p>$900.00 tax</p></div>
+                    </div>
+                    <div class="second-container">
+                        <div class="reform-text"><h4>SavvyCal</h4></div>
+                        <div class="reform-description-text"><p>Website redesign</p></div>
+                    </div>
+                    <div class="third-container">
+                        <div class="reform-text1"><h4>View transaction</h4></div>
+                        <div class="reform-description-text"><p>Invoice #00010</p></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="card-section">
+            <div class="section-heading">
+                <div class="card-heading"><h4>Recent clients</h4></div>
+                <div class="view-all-container"><h4>View all</h4></div>
+            </div>
+
+            <div class="card-container">
+                <div class="first-card-container">
+                    <div class="brand-container">
+                        <div class="brand-name">
+                            <div class="brand-logo"><img src="./tuple1.svg" alt="logo"></div>
+                            <div class="brand-text"><p>Tuple</p></div>
+                        </div>
+                        <div class="dot"><i class="fa-solid fa-ellipsis"></i></div>
+                    </div>
+
+                    <div class="invoice-date-container1">
+                        <div class="text"><p>Last invoice</p></div>
+                        <div class="invoice-date">December 13, 2022 </div>
+                    </div>
+
+                    <div class="invoice-date-container">
+                        <div class="text"><p>Amount</p></div>
+
+                        <div class="payment-container2">
+                            <div class="amount-container1"><p>$2,000.00 USD</p></div>
+                            <div class="payment-status2"><p>Overdue</p></div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="first-card-container">
+                    <div class="brand-container">
+                        <div class="brand-name">
+                            <div class="brand-logo"><img src="./savvycal.svg" alt="logo"></div>
+                            <div class="brand-text"><p>SavvyCal</p></div>
+                        </div>
+                        <div class="dot"><i class="fa-solid fa-ellipsis"></i></div>
+                    </div>
+
+                    <div class="invoice-date-container1">
+                        <div class="text"><p>Last invoice</p></div>
+                        <div class="invoice-date">January 22, 2023 </div>
+                    </div>
+
+                    <div class="invoice-date-container">
+                        <div class="text"><p>Amount</p></div>
+
+                        <div class="payment-container2">
+                            <div class="amount-container1"><p>$14,000.00 USD</p></div>
+                            <div class="payment-status"><p>Paid</p></div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="first-card-container">
+                    <div class="brand-container">
+                        <div class="brand-name">
+                            <div class="brand-logo"><img src="./reform.svg" alt="logo"></div>
+                            <div class="brand-text"><p>Reform</p></div>
+                        </div>
+                        <div class="dot"><i class="fa-solid fa-ellipsis"></i></div>
+                    </div>
+
+                    <div class="invoice-date-container1">
+                        <div class="text"><p>Last invoice</p></div>
+                        <div class="invoice-date">January 23, 2023 </div>
+                    </div>
+
+                    <div class="invoice-date-container">
+                        <div class="text"><p>Amount</p></div>
+
+                        <div class="payment-container2">
+                            <div class="amount-container1"><p>$7,600.00 USD</p></div>
+                            <div class="payment-status"><p>Paid</p></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>

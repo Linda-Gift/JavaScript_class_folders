@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color: #1a1919;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 4rem;
+}
+
+.empty-container{
+    width: 100%;
+    height: auto;
+    background-color: #181824;
+    padding: 20rem;
+}
+
+.image-container{
+    width: 100%;
+    height: auto;
+    padding: 10rem 10rem 12rem 10rem;
+    /* border-radius: 0.4rem; */
+    background-image: url(./bg-desktop-dark.jpg);
+    background-color: #1f1f1f;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.heading-and-todo-container{
+    width: 42%;
+    height: auto;
+    /* background-color: #1a1919; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2.5rem; 
+    position: absolute;
+    top: 5rem;
+    left: 30rem;
+}
+
+.heading-and-icon-container{
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.to-do-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.create-todo{
+    width: 100%;
+    height: auto;
+    background-color: #25273C;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+form{
+    width: 100%;
+    height: auto;
+    background-color: #25273C;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.button-container button{
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    border: 2px solid #727272;
+    background-color: #25273C;
+    cursor: pointer;
+}
+
+.input-field{
+    width: 100%;
+    height: auto;
+    background-color: #25273C;
+}
+.input{
+    width: 100%;
+    height: auto;
+}
+.input input{
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    color: #53556C;
+    outline: none;
+    border: none;
+    padding: 0.9rem;
+    background-color: #25273C;
+}
+
+.created-todo-container{
+    width: 100%;
+    height: auto;
+    background-color: #25273C;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.created-todo{
+    width: 100%;
+    height: auto;
+    background-color: #25273C;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 2rem;
+    border-bottom: 1px solid #363636;
+}
+
+.text-and-delete-icon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.delete-and-edit{
+    width: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1.5rem;
+    color: #ffffff;
+}
+p{
+    color: #bcc8e0;
+    font-size: 18px;
+    font-weight: 500;
+}

@@ -1,0 +1,19 @@
+.btn-1{
+    background-color: #8b032c;
+    color: #ffffff;
+    padding: 1rem 2rem 1rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.btn-2{
+    background-color: #8b3903;
+    color: #ffffff;
+    padding: 1rem 2rem 1rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: not-allowed;
+}

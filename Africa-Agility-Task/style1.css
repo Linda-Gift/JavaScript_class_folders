@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+*{
+margin: 0;
+font-family: "Bricolage Grotesque", sans-serif;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header-section{
+    width: 100;
+    height: auto;
+    background-color: #111827;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 12rem;
+}
+
+.logo-container{
+    width: 3%;
+    height: auto;
+}
+
+.logo-container img{
+    width: 100%;
+    height: auto;
+}
+
+.textlink-container{
+    width: 80%;
+    height: auto;
+    padding: 0 1.5rem 0 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    column-gap: 3rem;
+}
+
+.textlink-container a{
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.log-in-container{
+    width: 16%;
+    height: auto;
+}
+
+.log-in-container button{
+    width: 100%;
+    height: auto;
+    background-color: #111827;
+    color: #ffffff;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.4rem;
+}
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    background-color: #111827;
+    padding: 2rem 5rem 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.hero-section h4{
+    color: rgb(22, 22, 179);
+}
+
+.hero-section h1{
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+.hero-section-paragraph{
+    width: 75%;
+    height: auto;  
+  }
+.hero-section p{
+    color: rgb(182, 180, 190);
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.hero-section-button-container{
+    width: 100%;
+    width: auto;
+}
+
+.hero-section-button-container button{
+    width: 100%;
+    height: auto;
+    background-color: #3066db;
+    color: #ffffff;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    outline: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.pricing-section-container{
+    width: 100%;
+    height: auto;
+    background-color: #111827;
+    padding: 3rem 4rem 1.5rem 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 2rem;
+}
+
+.freelancer-container{
+    width: 33%;
+    height: auto;
+    padding: 2.5rem 2.5rem 8rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 1.5rem;
+    border-style: solid;
+    border-radius: 1.5rem;
+    color: rgb(182, 180, 190);
+    border-color: #322f3b;
+}
+
+.enterprise-container{
+    width: 33%;
+    height: auto;
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 1.5rem;
+    border-style: solid;
+    border-radius: 1.5rem;
+    color: rgb(182, 180, 190);
+    border-color: #322f3b;
+}
+
+.startup-container{
+    width: 33%;
+    height: auto;
+    padding: 2.5rem 2.5rem 5.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 1.5rem;
+    border-style: solid;
+    border-radius: 1.5rem;
+    color: rgb(182, 180, 190);
+    border-color: #611ffc;
+
+}
+.plan1-price-container, .plan2-price-container, .plan3-price-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:end;
+}
+
+.plan1-price-container h1, .plan2-price-container h1, .plan3-price-container h1{
+    color: #ffffff;
+}
+
+.plan1-button-container, .plan2-button-container, .plan3-button-container{
+    width: 100%;
+    height: auto;
+}
+
+.plan1-button-container button, .plan3-button-container button{
+    width: 95%;
+    height: auto;
+    padding: 1rem 0 1rem 0;
+    background-color: #5a5a5a;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+.plan2-button-container button{
+    width: 95%;
+    height: auto;
+    padding: 1rem 0 1rem 0;
+    background-color:#3c73e9;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+.startup-header-container{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 2rem;
+}
+
+.popular-button-container button{
+    width: 100;
+    height: auto;
+}
+
+.popular-button-container button{
+    width: 100%;
+    height: auto;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    background-color:#3c73e9;
+    color: #ffffff;
+    font-size: 0.8rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+}
+
+.enterprise-heading-container h4, .freelancer-heading-container h4, .startup-heading-container h4{
+    color: #ffffff;
+}
+
+.plan1-list-container, .plan2-list-container, .plan3-list-container{
+    width: 100%;
+    height: auto;
+}
+
+.heading1-paragraph-container p, .heading2-paragraph-container p, .heading3-paragraph-container p{
+    line-height: 1.8rem;
+}
+
+.plan1-list-container ul, .plan2-list-container ul, .plan3-list-container ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+li::before {
+    list-style-type: none;
+    content: '\2713';
+    margin-right: 1rem;
+  }
+
+ .testimonial-section{
+    width: 100%;
+    height: auto;
+    background-color: #111827;
+    color: #ffffff;
+    padding: 5rem 1.5rem 5rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 3rem;
+ }
+
+ .first-testimonial-container, .second-testimonial-container{
+    width: 100%;
+    height: auto;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 3rem;
+ }
+
+ .brand1-logo-container{
+    width: 20%;
+    height: auto;
+ }
+
+ .brand1-logo-container img{
+    width: 50;
+    height: auto;
+ }
+
+ .brand2-logo-container img{
+    width: 100;
+    height: auto;
+ }
+
+ .text1-p-container p, .text2-p-container p{
+    line-height: 2.2rem;
+    font-size: 1.2rem;
+    text-align: start;
+}
+
+.avatar1-container, .avatar2-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 1.5rem;
+}
+
+.img1-container, .img2-container{
+    width: 10%;
+    height: auto;
+    border-image: round;
+}
+
+.img1-container img, .img2-container img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.name1-container, .name2-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 0.4rem;
+}
+
+.name1-container p, .name2-container p{
+    color: rgb(182, 180, 190);
+}
+
+.footer-section{
+    width: 100%;
+    height: auto;
+    background-color: #e2e4e7;
+    padding: 2rem 5rem 2rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 1rem;
+}
+
+.contact-form-container{
+    width: 50%;
+    height: auto;
+    background-color: #0c1727;
+    border: none;
+    outline: none;
+    padding: 2rem 1rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.form-container{
+    width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.5rem; 
+}
+.form-details-container form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+h1, label{
+    color: #ffffff;
+}
+
+label{
+    color: rgb(182, 180, 190);
+}
+
+.fullname-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.2rem;
+}
+
+.fullname-container input{
+    width: 100%;
+    height: auto;
+    padding: 1rem 15rem 1rem 1rem;
+    outline: none;
+    border: none;
+    border: 0.1rem solid #e4e4e4;
+    border-radius: 0.4rem;
+}
+
+.fullname-container textarea{
+    width: 100%;
+    height: auto;
+    padding: 1rem 15rem 8rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+    border: 0.1rem solid #e4e4e4;
+}
+
+.form-container .button-container{
+    width: 100%;
+    height: auto;
+    background-color: #0c1727;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.button-container button{
+    width: fit-content;
+    height: auto;
+    color: #ffffff;
+    padding: 1rem 10rem 1rem 10rem;
+    outline: none;
+    border: none;
+    background-color: #3066db;
+    border-radius: 0.4rem;
+}
+
+.info-container{
+    width: 40%;
+    height: auto;
+    background-color: #e2e4e7;
+    border: none;
+    outline: none;
+    padding: 2rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.details-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.details-container .email-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+}
+.gmail-container{
+    width: fit-content;
+    height: auto;
+}
+
+.gmail-name-container{
+    width: fit-content;
+    height: auto;
+}
+
+.gmail-container p{
+    font-size: 1rem;
+    font: 600;
+}
+
+.gmail-name-container p{
+    font-size: 0.8rem;
+    font: 400;
+}
+
+.textlinks-container{
+    width: 12%;
+    height: auto;
+    background-color: #e2e4e7;
+    border: none;
+    outline: none;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.footer-textlink-container{
+    width: 100%;
+    height: auto;
+    background-color: #e2e4e7;
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.contact-link-container .anchor-container{
+    width: 100%;
+    height: auto;
+}
+
+.textlinks-container .contact-link-container a{
+    width: fit-content;
+    height: auto;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #0d0c0f;
+    text-decoration: none;
+    line-height: 0.8rem;
+}

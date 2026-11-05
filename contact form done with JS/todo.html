@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="./todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <div class="main-container">
+
+        <div class="image-container"></div>
+        <div class="empty-container"></div>
+
+        <!-- <div class="to-do-main-container"> -->
+            <div class="heading-and-todo-container">
+                <div class="heading-and-icon-container">
+                    <div class="heading"><h2>TO DO</h2></div>
+
+                    <div class="icon"><img src="./icon-sun.svg" alt=""></div>
+                </div>
+
+                <div class="to-do-container" id="todo-container">
+                    <!-- <div class="create-todo"> -->
+                        
+                        <div class="input-field">
+                            
+                            <form id="create-task">
+
+                                <div class="button-container">
+                                    <button id="add-task" type="submit"></button>
+                                </div>
+                                <div class="input">
+                                    <input type="text" placeholder="Create a new todo" id="new-task">
+                                </div>
+                            </form>
+                        </div>
+                    <!-- </div> -->
+
+                    <div class="created-todo-container" id="created-todo-container">
+                        <div class="created-todo">
+                            <div class="button-container"><button id="created-to-do-button"></button></div>
+
+                            <div class="text-and-delete-icon">
+                                <div class="created-todo-text">
+                                    <p>Complete Dev and Design JavaScript Bootcamp course</p>
+                                </div>
+
+                                <div class="delete-and-edit">
+                                    <div class="edit-icon"><i class="fa-regular fa-pen-to-square"></i></div>
+                                    <div class="delete-icon"><i class="fa-regular fa-trash-can"></i></div>
+                                </div>
+                            </div>
+                        </div>                          
+                       
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </div>
+
+    <script src="./todo.js"></script>
+</body>
+</html>

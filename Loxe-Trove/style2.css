@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.privacy-section{
+    width: 100%;
+    height: auto;
+    background-color: #f7f7f7;
+    padding: 3rem 10rem 0rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 3rem;  
+}
+
+.info-we-collect{
+    width: 100%;
+    height: auto;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 3rem; 
+}
+
+.sub-heading{
+    width: 100%;
+    height: auto;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 3rem; 
+}
+
+.usage-container1{
+    width: 100%;
+    height: auto;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.5rem;  
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+li{
+    line-height: 36px;
+    text-indent: 0.8rem;
+}
+
+.list{
+    padding-left: 2rem ;
+}
+
+

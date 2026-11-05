@@ -1,0 +1,24 @@
+ .container {
+    background-color: black;
+    padding: 0 0 0 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: ;
+ }
+
+ .secondcontainer {
+    background-color: blue;
+    padding: 5rem 0 5rem 0;
+    width: 30%;
+    height: auto;
+    
+ }
+
+ .anothercontainer {
+    background-color: greenyellow;
+    padding: 5rem 0 5rem 0;
+    width: 30%;
+    height: auto;
+ }

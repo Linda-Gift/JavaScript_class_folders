@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #141414;
+    padding: 5rem 10rem 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-container{
+    width: 30%;
+    height: auto;
+    background-color: #1f1f1f;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.profile-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.name-and-location{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.2rem;
+}
+
+.name h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.location p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #efff0bd3;
+}
+
+.info p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #b8b8b8;
+}
+.avartar{
+    width: fit-content;
+    height: auto;
+}   
+
+.avartar img{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;     
+}
+
+.social-links{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.8rem;
+}
+
+.anchortags{
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchortags:hover{
+    background-color: #efff0bd3;
+    color: #212121;
+}
+
+.anchortags a:hover{
+    color: #212121;
+}
+.anchortags a{
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 480px){
+    .main-container{
+        width: 100%;
+        height: 100vh;
+        background-color: #141414;
+        padding: 5rem 1.5rem 5rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .social-container{
+        width: 70%;
+        height: auto;
+        background-color: #1f1f1f;
+        padding: 1.5rem 1rem 1rem 1rem;
+        outline: none;
+        border: none;
+        border-radius: 0.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        row-gap: 1rem;
+    }
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.payment-section{
+    width: 100%;
+    height: auto;
+    background-color: #fcfcfc;
+    padding: 3rem 5rem 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 3rem;  
+}
+
+.order-text-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 2rem;  
+}
+
+.order-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem; 
+}
+.order-container p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.text-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem; 
+}
+
+h1{
+    font-size: 38px;
+    font-weight: 700;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600; 
+}
+
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1.5rem; 
+}
+
+.name-input{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.4rem; 
+}
+input{
+    width: 500px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border: 2px solid #ffe551;
+    border-radius: 0.4rem;
+}
+
+textarea{
+    width: 500px;
+    height: 200px;
+    outline: none;
+    border: none;
+    border: 2px solid #ffe551;
+    border-radius: 0.4rem;
+}
+label{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.button{
+    width: fit-content;
+    height: auto;
+}
+.button button{
+    font-size: 18px;
+    font-weight: 500;
+    color: #070707;
+    background-color: #ffe551;
+    padding: 0.8rem 5rem 0.8rem 5rem;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+}
+.rate{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.4rem; 
+}
+
+.star-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+.star i{
+    color: #070707;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #ffe551;
+}
+.icon i{
+    font-size: 24px;
+    position: relative;
+    top: 0.9rem;
+    left: 1rem;
+}
